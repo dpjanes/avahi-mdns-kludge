@@ -28,8 +28,3 @@ var browser = require('./lib/browser');
  *  API
  */
 exports.browser = browser.browser;
-
-
-exports.browser({ test: 1 }, function(error, d) {
-    console.log(d);
-});
