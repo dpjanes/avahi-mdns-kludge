@@ -1,0 +1,101 @@
+=   eth0 IPv4 StorCenter8Tb-TimeMachine                     Apple TimeMachine    local
+   hostname = [StorCenter8Tb.local]
+   address = [192.168.0.17]
+   port = [9]
+   txt = ["dk2=adVF=0x83,adVN=DavidJanes,adVU=00000000-0000-0000-0000-000000000000" "sys=waMA=00:d0:b8:00:00:00"]
+=   eth0 IPv4 StorCenter8Tb                                 iTunes Audio Access  local
+   hostname = [StorCenter8Tb.local]
+   address = [192.168.0.17]
+   port = [3689]
+   txt = ["Password=false" "Version=000000" "iTSh Version=000000" "Machine Name=StorCenter8Tb" "Machine ID=00000000" "Database ID=00000000" "txtvers=1"]
+=   eth0 IPv4 e0000000_000000                               _spotify-connect._tcp local
+   hostname = [Denon-AVR-S700W.local]
+   address = [192.168.0.16]
+   port = [80]
+   txt = ["CPath=/goform/spotifyConfig" "VERSION=1.0"]
+=   eth0 IPv4 0000000000000000                              _appletv-v2._tcp     local
+   hostname = [Apple-TV-6.local]
+   address = [192.168.0.14]
+   port = [3689]
+   txt = ["MiTPV=000000" "EiTS=1" "DFID=2" "PrVs=65538" "Name=Apple TV" "fs=2" "MniT=000000000" "hG=00000000-0000-0000-0000-000000000000" "atSV=65541" "txtvers=1"]
+=   eth0 IPv4 0000000000000000                              iPod Touch Music Library local
+   hostname = [Apple-TV-6.local]
+   address = [192.168.0.14]
+   port = [3689]
+   txt = ["Ver=131077" "atCV=65537" "DvSv=1552" "DvTy=AppleTV" "CtlN=Apple TV" "DbId=0000000000000000" "atSV=65541" "txtvers=1"]
+=   eth0 IPv4 0005CD497179@Denon AVR-S700W                  AirTunes Remote Audio local
+   hostname = [Denon-AVR-S700W.local]
+   address = [192.168.0.16]
+   port = [1028]
+   txt = ["vs=190.9" "vn=65537" "tp=UDP" "sf=0x4" "sd=100" "fv=s9766.1102.0" "am=AVRS700W" "md=0,1,2" "ft=0x00000000" "et=0,4" "da=true" "cn=0,1"]
+=   eth0 IPv4 5855CA182EC5@Apple TV                         AirTunes Remote Audio local
+   hostname = [Apple-TV-6.local]
+   address = [192.168.0.14]
+   port = [5000]
+   txt = ["vv=2" "vs=200.54" "vn=65537" "tp=UDP" "sf=0x44" "pk=0000000000000000000000000000000000000000000000000000000000000000" "am=AppleTV2,1" "md=0,1,2" "ft=0x4A7FFFF7,0xE" "et=0,3,5" "da=true" "cn=0,1,2,3"]
+=   eth0 IPv4 Denon AVR-S700W                               _airplay._tcp        local
+   hostname = [Denon-AVR-S700W.local]
+   address = [192.168.0.16]
+   port = [1028]
+   txt = ["srcvers=190.9" "seed=100" "model=AVRS700W" "flags=0x4" "features=0x444F8A00" "deviceid=00:05:CD:00:00:00"]
+=   eth0 IPv4 Apple TV (2)                                  _airplay._tcp        local
+   hostname = [Apple-TV-6.local]
+   address = [192.168.0.14]
+   port = [7000]
+   txt = ["vv=2" "srcvers=200.54" "pk=0000000000000000000000000000000000000000000000000000000000000000" "model=AppleTV2,1" "flags=0x44" "features=0x4A7FFFF7,0xE" "deviceid=58:55:CA:00:00:00"]
+=   eth0 IPv4 70-35-60-00.0 Apple TV (2)                    _sleep-proxy._udp    local
+   hostname = [Apple-TV-6.local]
+   address = [192.168.0.14]
+   port = [56071]
+   txt = []
+=   eth0 IPv4 StorCenter8Tb Web Management                  Web Site             local
+   hostname = [StorCenter8Tb.local]
+   address = [192.168.0.17]
+   port = [80]
+   txt = ["path=/"]
+=   eth0 IPv4 Denon AVR-S700W                               Web Site             local
+   hostname = [Denon-AVR-S700W.local]
+   address = [192.168.0.16]
+   port = [80]
+   txt = []
+=   eth0 IPv4 Brother HL-2270DW series                      Web Site             local
+   hostname = [BRN00000000000.local]
+   address = [192.168.0.22]
+   port = [80]
+   txt = []
+=   eth0 IPv4 Brother HL-2270DW series                      Internet Printer     local
+   hostname = [BRN00000000000.local]
+   address = [192.168.0.22]
+   port = [631]
+   txt = ["TBCP=F" "Transparent=T" "Binary=T" "PaperCustom=T" "Duplex=T" "Copies=T" "Color=F" "usb_MDL=HL-2270DW series" "usb_MFG=Brother" "priority=50" "adminurl=http://BRN00000000000.local./" "product=(Brother HL-2270DW series)" "ty=Brother HL-2270DW series" "rp=0000000000000" "pdl=application/vnd.hp-PCL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 Brother HL-2270DW series                      UNIX Printer         local
+   hostname = [BRN00000000000.local]
+   address = [192.168.0.22]
+   port = [515]
+   txt = ["TBCP=F" "Transparent=T" "Binary=T" "PaperCustom=T" "Duplex=T" "Copies=T" "Color=F" "usb_MDL=HL-2270DW series" "usb_MFG=Brother" "priority=75" "adminurl=http://BRN00000000000.local./" "product=(Brother HL-2270DW series)" "ty=Brother HL-2270DW series" "rp=0000000000000" "pdl=application/vnd.hp-PCL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 Brother HL-2270DW series                      PDL Printer          local
+   hostname = [BRN00000000000.local]
+   address = [192.168.0.22]
+   port = [9100]
+   txt = ["TBCP=T" "Transparent=F" "Binary=T" "PaperCustom=T" "Duplex=T" "Copies=T" "Color=F" "usb_MDL=HL-2270DW series" "usb_MFG=Brother" "priority=25" "adminurl=http://BRN00000000000.local./" "product=(Brother HL-2270DW series)" "ty=Brother HL-2270DW series" "pdl=application/vnd.hp-PCL" "qtotal=1" "txtvers=1"]
+=   eth0 IPv4 StorCenter8Tb                                 _LifeLineDevice._tcp local
+   hostname = [StorCenter8Tb.local]
+   address = [192.168.0.17]
+   port = [9]
+   txt = ["Password=false" "Machine Name=StorCenter8Tb" "txtvers=1"]
+=   eth0 IPv4 raspberrypi                                   Remote Disk Management local
+   hostname = [raspberrypi.local]
+   address = [192.168.0.20]
+   port = [22]
+   txt = []
+=   eth0 IPv4 StorCenter8Tb                                 Workstation          local
+   hostname = [StorCenter8Tb.local]
+   address = [192.168.0.17]
+   port = [9]
+   txt = ["Password=false" "Machine Name=StorCenter8Tb" "txtvers=1"]
+=   eth0 IPv4 raspberrypi [b8:27:eb:00:00:00]               Workstation          local
+   hostname = [raspberrypi.local]
+   address = [192.168.0.20]
+   port = [9]
+   txt = []
+
