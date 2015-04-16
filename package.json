@@ -1,0 +1,20 @@
+{
+    "author": "David P. Janes <davidjanes@iotdb.org> (https://iotdb.org)", 
+    "bugs": {
+        "url": "https://github.com/dpjanes/avahi-mdns-kludge/issues"
+    }, 
+    "dependencies": {}, 
+    "description": "Simple MDNS discovery using Avahi CLI tools", 
+    "homepage": "https://homestar.io", 
+    "homestar": {}, 
+    "license": "Apache-2.0", 
+    "main": "index.js", 
+    "name": "avahi-mdns-kludge", 
+    "private": false, 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/dpjanes/avahi-mdns-kludge"
+    }, 
+    "scripts": {}, 
+    "version": "0.0.1"
+}
