@@ -5,7 +5,7 @@
     }, 
     "dependencies": {}, 
     "description": "Simple MDNS discovery using Avahi CLI tools", 
-    "homepage": "https://homestar.io", 
+    "homepage": "https://github.com/dpjanes/node-iotdb",
     "homestar": {}, 
     "license": "Apache-2.0", 
     "main": "index.js", 
